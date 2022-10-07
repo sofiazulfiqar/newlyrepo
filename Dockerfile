@@ -3,3 +3,4 @@ RUN apk update && apk add bash build-base nodejs postgresql-dev tzdata
 RUN mkdir /project
 WORKDIR /project
 COPY Gemfile Gemfile.lock ./
+MAINTAINER="sophiazulfiqar"
